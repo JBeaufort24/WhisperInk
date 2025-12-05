@@ -1,0 +1,84 @@
+/*Body-Headings-Paragraph Details*/
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+/*Navigation Bar*/
+nav ul{
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 4px 10px;
+}
+
+nav ul li:hover{
+  background-color: rgb(50, 50, 50);
+  border-radius: 5px;
+}
+
+/*Header*/
+header img{
+  width: 200px;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 33% 33%;
+  padding: 10px;
+}
+
+/*Bio*/
+.about{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+}
+
+.bio img{
+  width: 200px;
+}
+/*Featured Work*/
+.mywork img{
+  width: 200px;
+  padding: auto;
+}
+
+/*Pricing*/
+.pricelist{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  padding: 10px;
+}
+
+.pricelist img{
+  width: 200px;
+}
+
+.pricelist ul{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10%;
+}
+
+.pricelist li{
+  padding: 10px 0;I
+}
+
+/*Contact Me*/
+.contactme ul{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+}
