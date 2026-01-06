@@ -29,13 +29,7 @@ nav ul li:hover{
 
 /*Header*/
 header img{
-  width: 200px;
-}
-
-header{
-  display: grid;
-  grid-template-columns: 33% 33%;
-  padding: 10px;
+  width: 100%;
 }
 
 /*Bio*/
@@ -73,7 +67,7 @@ header{
 }
 
 .pricelist li{
-  padding: 10px 0;I
+  padding: 10px 0;
 }
 
 /*Contact Me*/
