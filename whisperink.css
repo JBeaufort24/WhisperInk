@@ -47,7 +47,7 @@ header h1{
     width: 0;
   }
   to {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -95,20 +95,23 @@ header h3{
     transform: translateY(0);
     opacity: 1;
   }
+}
 
 /*Bio*/
-.about{
+.about img {
+  width: 100px;
+  padding: auto;
+}
+
+.about {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding: 10px;
 }
 
-.bio img{
-  width: 200px;
-}
 /*Featured Work*/
 .mywork img{
-  width: 200px;
+  width: 100px;
   padding: auto;
 }
 
@@ -139,4 +142,46 @@ header h3{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+header h1{
+  font-size: 2em;
+  width: 100%;
+}
+
+.about img {
+  width: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 100%;
+  }
+
+nav ul li {
+  float: none;
+  display: grid;
+  text-align: center;
+  padding: 4px 10px;
+  }
+  
+.contactme ul {
+  display: grid;
+  grid-template-columns: 100%;
+  padding-left: 20px;
+  }
+  
+.pricelist {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.pricelist img {
+  display: none;
+}
+}
+
+@media only screen and (min-width: 768px){
+  
 }
