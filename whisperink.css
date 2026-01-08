@@ -36,10 +36,10 @@ header{
 header h1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 3em;
-  animation: typing 5s steps(50) forwards, blink .75s step-end infinite;
+  animation: typing 5s steps(50) forwards, blink 1s step-end infinite;
   white-space: nowrap;
   overflow: hidden;
-  border-right: .15em solif orange;
+  border-right: .1em solid white;
 }
 
 @keyframes typing{
@@ -56,19 +56,45 @@ header h1{
     border-color: transparent;
   }
   50%{
-    border-color: orange;
+    border-color: white;
   }
 }
 
 header h2{
   font-size: 1em;
   padding-top: 5px;
+  animation: flyInFromBottom 2s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes flyInFromBottom{
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 header h3{
   font-size: x-small;
   padding-top: 5px;
+ animation: flyInFromTop 2s ease-out forwards;
+  opacity: 0;
 }
+
+@keyframes flyInFromTop {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 /*Bio*/
 .about{
