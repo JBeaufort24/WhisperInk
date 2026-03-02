@@ -158,7 +158,12 @@ header h1{
 }
 
 .about img {
-  width: 100%;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.about p{
+  padding: 10px 0 10px 0;
 }
 
 .about {
