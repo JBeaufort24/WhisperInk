@@ -151,6 +151,24 @@ header h3{
   padding: 10px;
 }
 
+/*Footer*/
+footer{
+    background: black;
+    padding: 15px 23px;
+    color: white;
+    text-align: center;
+}
+
+footer span a{
+    color: white;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 600px) {
 header h1{
   font-size: 2em;
