@@ -104,7 +104,7 @@ header h3{
 
 /*Bio*/
 .about img {
-  width: 100px;
+  width: 100%;
   padding: auto;
 }
 
@@ -116,19 +116,20 @@ header h3{
 
 /*Featured Work*/
 .mywork img{
-  width: 100px;
+  width: 200px;
   padding: auto;
 }
 
 /*Pricing*/
 .pricelist{
   display: grid;
-  grid-template-columns: 35% 65%;
-  padding: 10px;
+  grid-template-columns: 25% 75%;
+  padding: 20px;
 }
 
 .pricelist img{
-  width: 200px;
+  width: 90%;
+  padding-top: 25%;
 }
 
 .pricelist ul{
@@ -136,6 +137,7 @@ header h3{
   color: black;
   border-radius: 5px;
   padding: 10%;
+  opacity: 90%;
 }
 
 .pricelist li{
@@ -184,7 +186,7 @@ nav ul li {
 
 .pricelist img {
   display: none;
-}
+  }
 }
 
 @media only screen and (min-width: 768px){
