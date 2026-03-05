@@ -7,11 +7,11 @@
 
 body{
   background-color: black;
-  color: white;
+  color: ghostwhite;
 }
 
 a{
-  color: white;
+  color: ghostwhite;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ header h1{
   animation: typing 5s steps(50) forwards, blink 1s step-end infinite;
   white-space: wrap;
   overflow: hidden;
-  border-right: .1em solid white;
+  border-right: .1em ghostwhite;
 }
 
 @keyframes typing{
@@ -61,7 +61,7 @@ header h1{
     border-color: transparent;
   }
   50%{
-    border-color: white;
+    border-color: ghostwhite;
   }
 }
 
@@ -133,11 +133,10 @@ header h3{
 }
 
 .pricelist ul{
-  background-color: white;
+  background-color: ghostwhite;
   color: black;
   border-radius: 5px;
   padding: 10%;
-  opacity: 90%;
 }
 
 .pricelist li{
@@ -149,6 +148,10 @@ header h3{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding: 10px;
+}
+
+.contactme a:hover{
+  color: darkorange;
 }
 
 /*Footer*/
@@ -166,6 +169,7 @@ footer span a{
 
 footer span a:hover{
     text-decoration: underline;
+    color: red;
 }
 
 
@@ -210,8 +214,4 @@ nav ul li {
 .pricelist img {
   display: none;
   }
-}
-
-@media only screen and (min-width: 768px){
-  
 }
